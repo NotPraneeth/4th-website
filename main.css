@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika&family=Itim&family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    left: 0;
+    top: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.pg{
+    height: 100vh;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 30px;
+    font-family: 'itim';
+    padding-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 400;
+  color: #FB9295;
+}
+.landing-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-wrapper{
+    width: max-content;
+    margin-top: 40px;
+    
+}
+#hero-img{
+    width: 600px;
+    height: auto;
+}
+
+.hero-txt{
+    transform: translateX(-20px);
+    /* transform: translateY(30px); */
+    font-size: 48px;
+    color: #FB9295;
+    line-height: 70px;
+    align-self: flex-end;
+    transform: translateY(-20px);
+
+}
+.hero-line-top{
+    background-color: #333;
+    height: 2px;
+}
+
+.landing-cont .hero-txt .flavor {
+    color: #1864FF;
+  }
+
+.hero-mini-txt{
+    font-size: 20px;
+    line-height: 20px;
+    color: #1864FF;
+
+}
+
