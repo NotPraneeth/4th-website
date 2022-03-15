@@ -7,8 +7,11 @@
     font-family: 'Roboto',sans-serif;
 }
 
-.pg{
+.pg1{
     height: 100vh;
+}
+.pg2{
+    height: 80vh;
 }
 nav ul{
     display: flex;
@@ -18,7 +21,6 @@ nav ul{
 
 nav ul li{
     list-style: none;
-    font-size: 30px;
     font-family: 'itim';
     padding-top: 10px;
 }
@@ -137,5 +139,50 @@ nav ul li a{
     height: 120px;
     transform: translateY(20px);
 }
+
+@media screen and (max-width: 1170px) {
+    nav ul li a{
+        font-size: 32px;
+    }
+
+    #hero-img{
+        width: 500px;
+    }
+    .hero-txt{
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .hero-mini-txt{
+        font-size: 16px;
+    }
+
+    .about-title{
+        font-size: 60px;
+    }
+    .about-txt{
+        font-size: 22px;
+    }
+    .about-illustration{
+        width: 300px;
+    }
+    .skills-text{
+        font-size: 42px;
+    }
+    .skills-logos{
+        height: 100px;
+    }
+    .skills-logos-2{
+        height: 140px;
+    }
+    .git-img{
+        height: 100px;
+    }
+    .about-wrapper{
+        margin: -60px;
+    }
+    .about-container{
+        transform: translateX(30px);
+    }
+   }
 
 
