@@ -5,6 +5,7 @@
     left: 0;
     top: 0;
     font-family: 'Roboto',sans-serif;
+    scroll-behavior: smooth;
 }
 
 .pg1{
@@ -12,17 +13,31 @@
 }
 .pg2{
     height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #FB9295;
+    font-size: 45px;
 }
 nav ul{
     display: flex;
-    justify-content: space-around;
-
+    transform: translateX(-100px);
 }
 
 nav ul li{
     list-style: none;
     font-family: 'itim';
     padding-top: 10px;
+    margin-left: 30px;
 }
 nav ul li a{
     text-decoration: none;
@@ -107,6 +122,9 @@ nav ul li a{
     transform: translateY(30px);
 }
 
+.skills-wrapper{
+    margin-top: 100px;
+}
 .skills-text{
     text-align: center;
     font-size: 50px;
@@ -141,6 +159,9 @@ nav ul li a{
 }
 
 @media screen and (max-width: 1170px) {
+    nav ul{
+        transform: translateX(-40px);
+    }
     nav ul li a{
         font-size: 32px;
     }
