@@ -55,13 +55,13 @@ nav ul li a{
 .hero-line-top{
     margin-bottom: 2px;
     background-color: #333;
-    height: 2px;
+    height: 1px;
 }
 
 .hero-line-bottom{
     margin-top: 8px;
     background-color: #333;
-    height: 2px;
+    height: 1.5px;
 }
 
 .landing-cont .hero-txt .flavor {
@@ -69,9 +69,38 @@ nav ul li a{
   }
 
 .hero-mini-txt{
+    margin-top: 10px;
     font-size: 20px;
     line-height: 20px;
     color: #1864FF;
 
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-container{
+    width: 40%;
+}
+.about-title{
+    font-size: 72px;
+    color: #1864FF;
+}
+
+.about-txt{
+    font-size: 28px;
+    color: #1864FF;
+    background: #fb92968f;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    font-family: 'itim';
+    transform: translateX(-10px);
+}
+
+.about-illustration{
+    width: 350px;
 }
 
