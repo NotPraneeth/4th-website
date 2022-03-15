@@ -45,7 +45,6 @@ nav ul li a{
 
 .hero-txt{
     transform: translateX(-20px);
-    /* transform: translateY(30px); */
     font-size: 48px;
     color: #FB9295;
     line-height: 70px;
@@ -54,6 +53,13 @@ nav ul li a{
 
 }
 .hero-line-top{
+    margin-bottom: 2px;
+    background-color: #333;
+    height: 2px;
+}
+
+.hero-line-bottom{
+    margin-top: 8px;
     background-color: #333;
     height: 2px;
 }
