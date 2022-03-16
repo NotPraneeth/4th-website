@@ -206,4 +206,50 @@ nav ul li a{
     }
    }
 
+   @media screen and (max-width: 900px) {
+       .pg1{
+           height: 70vh;
+       }
+       .nav-logo{
+           font-size: 38px;
+       }
+       nav ul li a{
+           font-size: 28px;
+       }
+        #hero-img{
+            width: 400px;
+        }
+        .hero-txt{
+            font-size: 32px;
+            line-height: 48px;
+        }
+        .about-title{
+            font-size: 50px;
+        }
+        .about-txt{
+            font-size: 19px;
+        }
+        .about-illustration{
+            width: 250px;
+        }
+        .pg2{
+            height: 60vh;
+        }
+        .skills-text{
+            font-size: 38px;
+        }
+        .skills-logos{
+            height: 80px;
+        }
+        .skills-logos-2{
+            height: 120px;
+        }
+        .git-img{
+            height: 80px;
+        }
+        .pg3{
+            height: 80vh;
+        }
+   }
+
 
