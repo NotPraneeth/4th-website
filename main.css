@@ -252,4 +252,108 @@ nav ul li a{
         }
    }
 
+   @media screen and (max-width:760px) {
+       .landing-cont{
+           flex-direction: column;
+           align-items: center;
+
+       }
+       .pg1{
+           height: 120vh;
+       }
+       .hero-txt{
+           margin-top: 80px;
+           align-self: center;
+           width: 60%;
+           text-align: center;
+       }
+       .about-wrapper{
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+       .about-container{
+           width: 65%;
+       }
+       .pg2{
+           height: 90vh;
+       }
+       .pg3{
+           height: 80vh;
+       }
+       .skills-text{
+           font-size: 30px;
+           margin-top: 200px;
+       }
+       .skills-logos{
+           height: 50px;
+       }
+       .skills-logos-2{
+           height: 80px;
+       }
+       .git-img{
+           height: 50px;
+       }
+    
+   }
+
+   @media screen and (max-width: 680px) {
+       .nav-logo{
+           display: none;
+       }
+       nav{
+           justify-content: center;
+       }
+       .pg1{
+           height: 130vh;
+       }
+
+       .skills-text{
+           font-size: 26px;
+       }
+       .skills-logos{
+           height: 42px;
+       }
+       .spacing-for-skill-logos{
+           margin-left: 60px;
+       }
+   }
+
+   @media screen and (max-width: 465px) {
+       .skills-text{
+           font-size: 22px;
+       }
+       .pg1{
+           height: 100vh;
+       }
+       .hero-txt{
+           font-size: 25px;
+           line-height: 36px;
+       }
+       .about-title{
+           font-size: 42px;
+       }
+       .pg3{
+           height: 50vh;
+       }
+       .about-container{
+           transform: translateX(0px);
+       }
+       
+   }
+   @media screen and (max-width: 385px) {
+       .pg1{
+           height: 140vh;
+       }
+       .about-container{
+           transform: translateX(0px);
+       }
+       .pg3{
+        height: 60vh;
+    }
+    .skills-logos{
+        margin-top: 60px;
+    }
+   }
+
 
